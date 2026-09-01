@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: #93c5fd;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+.tarefas {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 2rem;
+
+  & #tasks {
+    & .tarefa {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    & .tarefa.desativado {
+      display: none;
+    }
+  }
+}
