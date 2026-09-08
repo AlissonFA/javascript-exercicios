@@ -15,7 +15,15 @@ console.log(estado.length);
 const replaceNome = nome.replace("!", ".");
 console.log(replaceNome);
 
-const animais = ["Vaca", "Galinha", "Porco", "Ovelha", "Gato", "Cachorro", "Vaca"];
+const animais = [
+  "Vaca",
+  "Galinha",
+  "Porco",
+  "Ovelha",
+  "Gato",
+  "Cachorro",
+  "Vaca",
+];
 console.log(animais.slice(4, 5));
 console.log(animais.slice(1));
 
@@ -40,11 +48,11 @@ console.log(juncao);
 
 // 6
 
-console.log(animais.includes("Porco"))
-console.log(frase.includes("desenvolvedor"))
+console.log(animais.includes("Porco"));
+console.log(frase.includes("desenvolvedor"));
 
-console.log(animais.indexOf("Ovelha"))
-console.log(animais.indexOf("Vaca", 1)) // Dá pra definir de onde vai começar
+console.log(animais.indexOf("Ovelha"));
+console.log(animais.indexOf("Vaca", 1)); // Dá pra definir de onde vai começar
 
-const regex = /,/g
-console.log(frase.search(regex))
+const regex = /,/g;
+console.log(frase.search(regex));
